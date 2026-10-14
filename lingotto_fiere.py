@@ -133,7 +133,7 @@ class StandPremium(Stand):
     def __str__(self):
         #descrive lo stand premium
         testo = (
-            +self.codice
+            + self.codice
             + ": Premium | "
             + str(self.superficie)
             + " mq - Padiglione "
